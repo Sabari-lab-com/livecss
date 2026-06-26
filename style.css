@@ -1,0 +1,182 @@
+@import url("main.css");
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #ffffff,
+        #eef6ff,
+        #e8f0ff,
+        #f2ecff
+    );
+}
+
+/* *{
+    outline: 1px solid red;
+} */
+
+header{
+    position: sticky;
+    top:0px;
+    z-index: 10;
+}
+header h1{
+    width: fit-content;
+    background:linear-gradient(45deg,rgb(255, 0, 153),white,cyan) ;
+    background-clip: text;
+    color: transparent;
+   font-family: Arial, sans-serif;
+}
+
+li a:hover{
+    transition: 0.5s;
+    color: black !important;
+}
+
+
+header nav{
+    border-top: none;
+}
+
+
+
+@media screen and (max-width:768px) {
+    header nav{
+        border-top: 1px solid rgb(39, 0, 124);
+        
+    }
+    
+}
+
+.heading{
+    color: rgb(117, 117, 117);
+}
+
+pre{
+    border-radius: 10px;
+    border: 1px solid cyan;
+    padding: 10px;
+    background-color: rgba(188, 188, 188, 0.644);
+}
+
+.about-neon p{
+    border: 1.5px solid rgb(48, 48, 48);
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.display-4{
+    font-weight: 400 !important;
+    color: orangered;
+}
+
+.about-style{
+    border: gray 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+#other-neon{
+    border-radius: 10px;
+}
+
+.b-rounded{
+    border-radius: 8px !important;
+}
+
+.font-size-op{
+    border-radius: 10px;
+    border: aqua 1px solid;
+}
+
+/* css for textani or page2 - typing text */
+
+.dub-body{
+    padding: 0px 10px;
+}
+
+.title-card{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        135deg,
+        #18203c,
+        #1c1e3b,
+        #151630,
+        #060610
+    );
+    
+}
+.ani{
+    background: linear-gradient(
+        135deg,
+        #18203c,
+        #1c1e3b,
+        #151630,
+        #060610
+    );
+}
+
+.Welcome-text{
+    font-weight: 400 !important;
+    color:rgb(0, 208, 255) !important;
+}
+
+
+.neon-rgb,.neon-rgb p{
+    border-color: white;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-shadow:
+        -2px 0 #ff0000,
+         2px 0 #00ffff !important;
+}
+
+/* for output box */
+
+.op-box,.code-box{
+    border-radius: 10px;
+    border: 2px solid rgb(0, 119, 255);
+    background-color:rgba(211, 211, 211, 0.876) ;
+}
+
+.code-box pre{
+    border: none;
+}
+
+.code-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* home page */
+
+#csslink,#jslink{
+    border-radius: 10px;
+    position: relative;
+    padding: 5px;
+    background-color:rgba(188, 188, 188, 0.644);;
+}
+
+
+#csslink i,#jslink i{
+    position: absolute;
+    top: 2px;
+    right: 8px;
+    color: rgb(0, 0, 0);
+    
+}

@@ -1,0 +1,162 @@
+
+/* neon effect standard */
+
+.neon-cyan{
+    font-family: Arial, sans-serif;
+    text-shadow:
+        0 0 5px #00ffff,
+        0 0 10px #00ffff,
+        0 0 20px #00ffff,
+        0 0 40px #00ffff,
+        0 0 80px #00ffff;
+}
+
+
+/* Pink */
+.neon-pink{
+     font-family: Arial, sans-serif;
+    color: #fff;
+    text-shadow:
+        0 0 5px #ff00ff,
+        0 0 10px #ff00ff,
+        0 0 20px #ff00ff,
+        0 0 40px #ff00ff,
+        0 0 80px #ff00ff;
+}
+
+/* Purple */
+.neon-purple{
+     font-family: Arial, sans-serif;
+    color: #fff;
+    text-shadow:
+        0 0 5px #9d00ff,
+        0 0 10px #9d00ff,
+        0 0 20px #9d00ff,
+        0 0 40px #9d00ff,
+        0 0 80px #9d00ff;
+}
+
+/* Blue */
+.neon-blue{
+     font-family: Arial, sans-serif;
+    color: #fff;
+    text-shadow:
+        0 0 5px #008cff,
+        0 0 10px #008cff,
+        0 0 20px #008cff,
+        0 0 40px #008cff,
+        0 0 80px #008cff;
+}
+
+/* Green */
+
+.neon-green{
+     font-family: Arial, sans-serif;
+    color: #fff;
+    text-shadow:
+        0 0 5px #39ff14,
+        0 0 10px #39ff14,
+        0 0 20px #39ff14,
+        0 0 40px #39ff14,
+        0 0 80px #39ff14;
+}
+
+/* Lime */
+.neon-lime{
+     font-family: Arial, sans-serif;
+    color: #fff;
+    text-shadow:
+        0 0 5px #ccff00,
+        0 0 10px #ccff00,
+        0 0 20px #ccff00,
+        0 0 40px #ccff00,
+        0 0 80px #ccff00;
+}
+
+/* Orange */
+.neon-orange{
+     font-family: Arial, sans-serif;
+    color: #fff;
+    text-shadow:
+        0 0 5px #ff7b00,
+        0 0 10px #ff7b00,
+        0 0 20px #ff7b00,
+        0 0 40px #ff7b00,
+        0 0 80px #ff7b00;
+}
+
+/* Red */
+.neon-red{
+     font-family: Arial, sans-serif;
+    color: #fff;
+    text-shadow:
+        0 0 5px #ff3131,
+        0 0 10px #ff3131,
+        0 0 20px #ff3131,
+        0 0 40px #ff3131,
+        0 0 80px #ff3131;
+}
+
+/* Yellow */
+
+.neon-yellow{
+     font-family: Arial, sans-serif;
+    color: #fff;
+    text-shadow:
+        0 0 5px #ffee00,
+        0 0 10px #ffee00,
+        0 0 20px #ffee00,
+        0 0 40px #ffee00,
+        0 0 80px #ffee00;
+}
+
+/* White Ice */
+.neon-ice{
+     font-family: Arial, sans-serif;
+    color: #fff;
+    text-shadow:
+        0 0 5px #ffffff,
+        0 0 10px #ffffff,
+        0 0 20px #ffffff,
+        0 0 40px #87cefa,
+        0 0 80px #87cefa;
+}
+
+.neon-magenta{
+     font-family: Arial, sans-serif;
+    color: #fff;
+    text-shadow:
+        0 0 5px #ff00aa,
+        0 0 10px #ff00aa,
+        0 0 20px #ff00aa,
+        0 0 40px #ff00aa,
+        0 0 80px #ff00aa,
+        0 0 120px #ff00aa;
+}
+
+/* special */
+.neon-rgb{
+     font-family: Arial, sans-serif;
+    color: #fff;
+    text-shadow:
+        -2px 0 #ff0000,
+         2px 0 #00ffff,
+         0 0 10px #ff00ff,
+         0 0 20px #00ffff,
+         0 0 40px #ff00ff,
+         0 0 80px #00ffff;
+}
+
+.neon-premium{
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #ff00ff,
+        0 0 40px #ff00ff,
+        0 0 80px #00ffff,
+        0 0 120px #00ffff,
+        0 0 180px #00ffff;
+}
+
