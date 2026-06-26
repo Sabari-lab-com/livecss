@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>live css</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body class="ani">
+    <header>
+        <div class="container-fluid bg-primary">
+            <div class="row mx-0">
+                <div class="col-12 col-md-6 d-flex align-items-center">
+                    <h1>live css</h1>
+                </div>
+
+                <nav class="col-12 col-md-6 d-flex justify-content-start justify-content-md-end align-items-center">
+                    <ul class="list-inline d-flex align-items-center m-0 pb-1 pb-md-0">
+                        <li class="list-inline-item"><a href="liveanimation.html" class="text-decoration-none text-white">Text-Animation</a>
+                        </li>
+                        <li class="list-inline-item"><a href="live.html"
+                                class="text-decoration-none text-white">neon-effects</a>
+                        </li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none text-white">Colors</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="home-page">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col mt-2">
+                   <h1 class="text-white neon-pink display-2 text-center">Welcome to livecss</h1> 
+                </div>
+            </div>
+            <div class="row">
+                <h4 class="neon-rgb text-center">Here,You Got Ideas and Solutions</h4>
+            </div>
+
+
+            <div class="row mt-2 p-2">
+                <div class="col mb-2 copy-block" id="csslink">
+                    <i class="bi bi-clipboard copy-btn"></i>
+                    <p class="text-white">CCS Link<br>Copy this link and paste it into your code to make styling easy</p>
+<pre>
+&lt;link rel="stylesheet" href="https://sabari-lab-com.github.io/trail/style.css"&gt;
+</pre>
+                </div>
+                <div class="col copy-block" id="jslink">
+                    <i class="bi bi-clipboard copy-btn"></i>
+                    <p class="text-white">Js Link<br>Copy this link and paste it into your code to make Animation easy</p>
+<pre>
+&lt;link rel="stylesheet" href="https://sabari-lab-com.github.io/trail/style.css"&gt;
+</pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll(".copy-btn").forEach(btn => {
+
+    btn.addEventListener("click", () => {
+
+        const code = btn
+            .closest(".copy-block")
+            .querySelector("pre")
+            .innerText
+            .trim();
+
+        navigator.clipboard.writeText(code);
+
+        btn.classList.remove("bi-clipboard");
+        btn.classList.add("bi-check");
+
+        setTimeout(() => {
+            btn.classList.remove("bi-check");
+            btn.classList.add("bi-clipboard");
+        }, 1500);
+
+    });
+
+});
+    </script>
+</body>
+</html>

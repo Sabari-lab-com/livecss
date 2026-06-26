@@ -1,0 +1,50 @@
+.typing-it{
+    font-family:monospace;
+    font-size: 30px;
+    font-weight: 300;
+    white-space: nowrap;
+    padding-right:4px;
+    overflow: hidden;
+    border-right:black solid 3px;
+}
+
+
+@keyframes typing-it{
+    from{
+        width: 0;
+    }
+    to{
+        width: 31ch;
+    }
+}
+
+@keyframes blink-it{
+    50%{
+        border: transparent;
+    }
+}
+
+
+/* for output */
+
+.typing-text,.typing-text-loop,.typing-text-stop{
+    font-family:monospace ;
+    font-size: 30px;
+    font-weight: 300;
+    white-space: nowrap;
+    padding-right:4px;
+    overflow: hidden;
+    border-right:black solid 3px ;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+
+@keyframes blink{
+    50%{
+        border: transparent;
+    }
+}
